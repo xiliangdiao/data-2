@@ -1,0 +1,151 @@
+Traceback (most recent call last):
+  File "stream.py", line 17, in <module>
+    data1=nc.Dataset('/ihesp/user/xiliangdiao/ihespdata/ocn300/B.E.13.B1850C5.ne120_t12.sehires38.003.sunway_02.pop.h.300-09.UVEL.nc')
+  File "netCDF4/_netCDF4.pyx", line 2135, in netCDF4._netCDF4.Dataset.__init__
+  File "netCDF4/_netCDF4.pyx", line 1752, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/ihesp/user/xiliangdiao/ihespdata/ocn300/B.E.13.B1850C5.ne120_t12.sehires38.003.sunway_02.pop.h.300-09.UVEL.nc'
+Traceback (most recent call last):
+  File "stream.py", line 18, in <module>
+    lont = data.variables['ULONG'][:600,500:1100]
+NameError: name 'data' is not defined
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream.py:44: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream2.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream3.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream.py:44: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream3.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream2.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream2.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream.py:44: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream3.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream.py:44: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream3.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+stream2.py:43: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+Traceback (most recent call last):
+  File "salinitySV.py", line 22, in <module>
+    wholedis[j] = 111.34* math.cos(math.radians(latt[:,200][j]))
+IndexError: index 480 is out of bounds for axis 0 with size 480
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+PM.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+PM.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+PM.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+python: can't open file 'PM#.py': [Errno 2] No such file or directory
+PM2.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM2.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+PM3.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM3.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+PM3.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM3.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+Traceback (most recent call last):
+  File "PM3.py", line 24, in <module>
+    data=nc.Dataset('/ihesp/user/xiliangdiao/ihespdata/ocn330-500/cmpr_B.E.13.B1850C5.ne120_t12.sehires38.003.sunway_02.pop.h.'+yy+'-'+mm +'.UVEL.nc')
+  File "netCDF4/_netCDF4.pyx", line 2135, in netCDF4._netCDF4.Dataset.__init__
+  File "netCDF4/_netCDF4.pyx", line 1752, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/ihesp/user/xiliangdiao/ihespdata/ocn330-500/cmpr_B.E.13.B1850C5.ne120_t12.sehires38.003.sunway_02.pop.h.0499-05.UVEL.nc'
+PM3.py:33: RuntimeWarning: invalid value encountered in greater
+  u[u>0]=0
+PM3.py:40: RuntimeWarning: invalid value encountered in greater
+  A1[A1>100000000000000]=0
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
+/scratch/user/xiliangdiao/.conda/envs/python3/lib/python3.6/site-packages/numpy/ma/core.py:1015: RuntimeWarning: overflow encountered in multiply
+  result = self.f(da, db, *args, **kwargs)
